@@ -1,6 +1,7 @@
  #include <iostream> // for cin i cout
  #include <cstring> // for strcpy()
  #include <windows.h> // for SetConsoleTextAttribute()
+ #include <conio.h> // for system()
 
  using namespace std;
 
@@ -71,6 +72,7 @@
 
     }
     SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE );
-    cout << "\n\n Copy this text with Ctrl+C." << endl;
+    cout << "\n\n Copy this text with Ctrl+C.\n" << endl;
+    system("PAUSE");
     return 0;
  }

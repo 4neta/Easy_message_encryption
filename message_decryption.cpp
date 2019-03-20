@@ -1,6 +1,7 @@
  #include <iostream> // for cin i cout
  #include <cstring> // for strcpy()
  #include <windows.h> // for SetConsoleTextAttribute()
+ #include <conio.h> // for system()
 
  using namespace std;
 
@@ -70,7 +71,7 @@
         cout << arrayoftext[i];
     }
     SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE );
-    cout << endl;
-
+    cout << "\n" << endl;
+    system("PAUSE");
     return 0;
  }
