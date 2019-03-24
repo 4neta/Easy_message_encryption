@@ -1,4 +1,4 @@
- #include <iostream> // for cin i cout
+ #include <iostream> // for cin and cout
  #include <cstring> // for strcpy()
  #include <windows.h> // for SetConsoleTextAttribute()
  #include <conio.h> // for system()
