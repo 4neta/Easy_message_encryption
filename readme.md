@@ -1,7 +1,7 @@
 # Easy Message Encryption
 *Encrypt and decrypt private short messages*
 ________
-It's extremely easy application for encypting messages, but it fulfills its function. It's because cryptography is based on ignorance of the encyrption algorithm and private keys. The sender and recipient must use a secure channel to exchange keys (preferably in reality), if they want to correspond safety.
+It's extremely easy application for encrypting messages, but it fulfills its function. It's because cryptography is based on ignorance of the encryption algorithm and private keys. The sender and recipient must use a secure channel to exchange keys (preferably in reality), if they want to correspond safety.
 
 In 'my' cryptosystem, we choose as many as three keys - `x`, `y` and `z`. Number `z` indicates the length of blocks to which the text will be divided. Program use the *Caesar cipher* on these blocks. The odd blocks are shifted by `x` letters and the even ones by `y`. Of course numbers `x` and `y` can be negative, but `z` doesn't.
 
